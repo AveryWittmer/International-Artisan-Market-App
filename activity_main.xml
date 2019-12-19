@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/enactus_dark_gold"
+    >
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artisan Market"
+        android:layout_centerInParent="true"
+        android:textSize="100sp"
+        android:textColor="@color/enactus_gray"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:paddingTop="40dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/text_view"
+            android:src="@drawable/enactuslogo"
+            android:cropToPadding="true"/>
+
+
+</RelativeLayout>
